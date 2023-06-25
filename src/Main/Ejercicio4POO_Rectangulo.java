@@ -8,10 +8,10 @@ public class Ejercicio4POO_Rectangulo {
 
         Rectangulo rect = new Rectangulo();
         rect.crearRectangulo();
-        rect.calcularPerimetro();
+        int res = rect.calcularPerimetro();
         rect.calcularSuperficie();
         rect.dibujarRectangulo();
-        System.out.println("El perimetro es: " + rect.calcularPerimetro());
+        System.out.println("El perimetro es: " + res);
         System.out.println("La superficie es: " + rect.calcularSuperficie());
 
     }

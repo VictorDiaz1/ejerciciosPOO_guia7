@@ -44,6 +44,7 @@ public class Rectangulo {
     }
 
     public int calcularPerimetro() {
+        System.out.println("h*b");
         return (base + altura) * 2;
     }
 
